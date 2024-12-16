@@ -5,7 +5,18 @@
 
 This repository provides code for replicating (some) of the analyses in "DNA joho de seitai wo yomitoku" by Hirokazu Toju.
 
-## Data データ
+## How to open in RStudio | RStudioでの開き方
+
+1. RStudio の File メニューから New Project を選択して、次に Version Control を選択します。  
+![](docs/r-project-wizard-1.png)
+2. Git を選択します。  
+![](docs/r-project-wizard-2.png)
+3. Repository URLに <https://github.com/joelnitta/seitai-yomitoku/>、Project directory name に`seitai-yomitoku`、Create project as subdirectory of に任意のフォルダー（Desktopがおすすめ）を入力します。  
+![](docs/r-project-wizard-3.png)
+4. Create project ボタンを押します。
+5. データをダウンロードする
+
+## Data | データ
 
 使用するデータファイルは以下の2つです：
 
@@ -19,7 +30,8 @@ There are two data files:
 
 Download these from [Google Drive](https://drive.google.com/drive/folders/1obxIYrq2isURX79c0Skm5TGeO5KhbPrq?usp=drive_link) (currently, access is restricted) and put them in the `data/` folder.
 
-## ライセンス License
+
+## ライセンス | License
 
 seitai-yomitoku is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
